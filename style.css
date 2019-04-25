@@ -1,0 +1,160 @@
+*{
+    padding: 0; margin: 0;
+}
+body{
+    background-color:#f9f9f9;
+    font-size:16px
+    color:#444;
+    font-family: sans-serif;
+}
+
+.content{
+    width: 80%;
+    margin: 10px auto;
+}
+
+/*header*/
+header{
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+    text-align: center; 
+}
+
+/*menu navigasi*/
+.menu{
+    background-color: #87CEFA;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px; 
+    margin-bottom: 10px;
+}
+
+div.menu ul {
+    list-style:none;
+    overflow: hidden;
+}
+
+
+div.menu ul li {
+    float:left;     
+    text-transform:uppercase;
+}
+
+div.menu ul li a {
+    display:block;  
+    padding:0 20px;
+    text-decoration:none;
+    color:#2c2c2c;
+    font-family: sans-serif;
+    font-size:13px;
+    font-weight:400;
+    transition:all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {    
+    cursor: pointer;    
+    color:#fff;
+}
+
+
+div.badan{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+h2{
+	color:#50626C;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #f1f1f1;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color:#50626C;
+	text-transform: uppercase;
+}
+
+button {
+    background-color: #049372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f03434;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+span{
+	color:#50626C;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
